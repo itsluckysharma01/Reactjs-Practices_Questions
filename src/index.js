@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import ThreeInput from "./ThreeInput";
+import FourList from "./FourList";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <ThreeInput />
+    <FourList />
   </React.StrictMode>
 );
