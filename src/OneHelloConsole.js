@@ -2,7 +2,7 @@ import { getAllByPlaceholderText } from "@testing-library/dom";
 import React from "react";
 
 let greet = "Hello World";
-const HelloConsole = () => {
+const OneHelloConsole = () => {
   console.log("hello");
   console.log(greet);
   return (
@@ -12,4 +12,4 @@ const HelloConsole = () => {
   );
 };
 
-export default HelloConsole;
+export default OneHelloConsole;

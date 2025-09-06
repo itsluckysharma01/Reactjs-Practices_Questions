@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import HelloConsole from "./HelloConsole";
+import TwoCounter from "./TwoCounter";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <HelloConsole />
+    <TwoCounter />
   </React.StrictMode>
 );
